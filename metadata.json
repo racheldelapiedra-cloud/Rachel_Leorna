@@ -1,0 +1,6 @@
+{
+  "name": "Light Equipment Monitor",
+  "description": "A comprehensive tracking and management dashboard for light equipment and tools, complete with location tracking history and detailed maintenance logging.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root, .theme-amber {
+  /* Dynamic Primary Accent Theme Variables - Amber (Classic Industrial) */
+  --accent-50: #fffbeb;
+  --accent-100: #fef3c7;
+  --accent-200: #fde68a;
+  --accent-300: #fcd34d;
+  --accent-400: #fbbf24;
+  --accent-450: #f59e0b;
+  --accent-500: #f59e0b;
+  --accent-550: #d97706;
+  --accent-600: #d97706;
+  --accent-800: #92400e;
+  --accent-950: #451a03;
+
+  /* Dynamic Neutral Layout Theme Variables - Zinc (Default Dark) */
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-205: #e4e4e7;
+  --zinc-250: #d4d4d8;
+  --zinc-300: #d4d4d8;
+  --zinc-350: #a1a1aa;
+  --zinc-400: #a1a1aa;
+  --zinc-450: #71717a;
+  --zinc-500: #71717a;
+  --zinc-550: #52525b;
+  --zinc-655: #3f3f46;
+  --zinc-755: #27272a;
+  --zinc-800: #27272a;
+  --zinc-805: #27272a;
+  --zinc-808: #1f1f23;
+  --zinc-850: #18181b;
+  --zinc-855: #18181b;
+  --zinc-900: #0c0c0e; /* Deep dark panels */
+  --zinc-950: #09090b; /* Page default canvas */
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Force override standard color paths to dynamically adapt to our CSS custom variables */
+  --color-amber-50: var(--accent-50);
+  --color-amber-100: var(--accent-100);
+  --color-amber-200: var(--accent-200);
+  --color-amber-300: var(--accent-300);
+  --color-amber-400: var(--accent-400);
+  --color-amber-450: var(--accent-450);
+  --color-amber-500: var(--accent-500);
+  --color-amber-550: var(--accent-550);
+  --color-amber-600: var(--accent-600);
+  --color-amber-800: var(--accent-800);
+  --color-amber-950: var(--accent-950);
+
+  --color-zinc-50: var(--zinc-50);
+  --color-zinc-100: var(--zinc-100);
+  --color-zinc-200: var(--zinc-200);
+  --color-zinc-205: var(--zinc-205);
+  --color-zinc-250: var(--zinc-250);
+  --color-zinc-300: var(--zinc-300);
+  --color-zinc-350: var(--zinc-350);
+  --color-zinc-400: var(--zinc-400);
+  --color-zinc-450: var(--zinc-450);
+  --color-zinc-500: var(--zinc-500);
+  --color-zinc-550: var(--zinc-550);
+  --color-zinc-655: var(--zinc-655);
+  --color-zinc-755: var(--zinc-755);
+  --color-zinc-800: var(--zinc-800);
+  --color-zinc-805: var(--zinc-805);
+  --color-zinc-808: var(--zinc-808);
+  --color-zinc-850: var(--zinc-850);
+  --color-zinc-855: var(--zinc-855);
+  --color-zinc-900: var(--zinc-900);
+  --color-zinc-950: var(--zinc-950);
+}
